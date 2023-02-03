@@ -42,18 +42,19 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Visiting Researcher
+      institution: KTH Royal Institute of Technology, Stockholm, Sweden
+      year: May-Aug 2022
+      description:
+        - Collaborated on deep learning-based anomaly detection models for congestion control to enhance network performance and user experience.
+
     - title: Graduate Research Assistant
       institution: Saint Louis University, St. Louis, MO, USA
       year: Aug 2021 - now
       description:
         - Conduct research on Deep Reinforcement Learning for context-aware end-to-end congestion control.
         - Analysis and development of AI-based computer vision algorithms for network telemetry.
-    - title: Visiting Researcher
-      institution: KTH Royal Institure of Technology, Stockholm, Sweden
-      year: May-Aug 2022
-      description:
-        - Collaborated on deep learning-based anomaly detection models for congestion control to enhance network performance and user experience.
-
+    
     - title: Big Data Engineer
       institution: Almaviva DigitalTec, Naples, Italy
       year: Apr-Aug 2021
