@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Student | Computer Science | Machine Learning | Networking
 
@@ -14,7 +14,7 @@ profile:
     <p> 1 N. Grand Blvd. </p>
     <p>St. Louis, MO 63103 USA</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

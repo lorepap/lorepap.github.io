@@ -21,6 +21,21 @@ table {
   }
 }
 
+// news table update
+div.news {
+  margin-bottom:20px;
+ div.table-responsive {
+    overflow: scroll;
+ }
+}
+table.table-sm {
+  tr {
+    th.news-date {
+      white-space: nowrap;
+    }
+  }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -276,6 +291,9 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;

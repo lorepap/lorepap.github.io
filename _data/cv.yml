@@ -2,96 +2,106 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Lorenzo Pappone
     - name: Date of Birth
-      value: 14th March 1879
+      value: 16th October 1996
     - name: Languages
-      value: English, German
+      value: English, Italian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. Student
+      institution: Saint Louis University, St. Louis, USA, MO
+      year: 2021 - now
+      description: 
+        - Machine Learning for Networks
+
+    - title: M.S. in Computer Engineering
+      institution: University of Naples Federico II, Naples, Italy
+      year: 2021
+      description: 
+        - title: Highlights
+          contents: 
+            - Machine Learning
+            - Deep Learning
+            - Network Security
+            - Internet Performance Analysis
+
+    - title: B.S. in Computer Engineering
+      institution: University of Naples Federico II, Naples, Italy
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Highlights
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+          - Algorithms
+          - Computer Architectures
+          - Database
+          - Operative Systems
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Saint Louis University, St. Louis, MO, USA
+      year: Aug 2021 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conduct research on Deep Reinforcement Learning for context-aware end-to-end congestion control.
+        - Analysis and development of AI-based computer vision algorithms for network telemetry.
+    - title: Visiting Researcher
+      institution: KTH Royal Institure of Technology, Stockholm, Sweden
+      year: May-Aug 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Collaborated on deep learning-based anomaly detection models for congestion control to enhance network performance and user experience.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Big Data Engineer
+      institution: Almaviva DigitalTec, Naples, Italy
+      year: Apr-Aug 2021
       description:
+        - Design and development of a back-end Spark job for a big data management platform. The back-end job supports SQL-like operations over geo-spatial data.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Graduate Research Assistant
+      institution: University of Naples Federico II, Naples, Italy
+      year: Sep-Mar 2021
+      description: Analysis and implementation of Deep Neural Networks (CNN, GRU, LSTM) to predict mobile-app coarse-grained network traffic in short-term time windows.
 
-- title: Open Source Projects
+- title: Relevant Coursework and Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - title: Software Engineering
+      items:
+        - Leading the design and the development of a NLP-based web-application for context-aware spell-checking based on Flask and Javascript.
+    - title: Internet Performance Analysis
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Conduct research for mobile-network traffic classification using a distributed deep learning framework (Horovod) on a Spark cluster.
+    - title: Machine Learning
       items: 
-        - Max Planck Medal
+        - Design and implementation of a predictor for a solar panel energy production forecasting on the basis of weather conditions, training data using Random Forest algorithm.
+    - title: Network Security
+      items:
+        - Generation and propagation of a Trojan malware using Metasploit and SEToolkit tools on a Kali Linux OS. The malware could avoid AV static and dynamic analysis and tested on a Windows OS, after being embedded in a Windows installer using the NSIS tool.
+    - title: Datacenter Networks
+      items:
+        - Implementation of the ECMP protocol using software defined networking on a leaf-spine topology, built using the Mininet tool. The control plane was deployed using a Ryu controller and the OpenFlow protocol.
+    - title: Computer Systems
+      items:
+        - Implementation and of a client-server application for workload analysis and load balancing of incoming HTTP requests. A server pool was deployed using Microsoft Azure. The communication has been tested using the Jmeter tool and each virtual machine has been provided with an Apache web server.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Network traffic matrix estimation using AI-based computer vision techniques
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+       - Development an AI system based on computer vision algorithms (i.e., super-resolution) that can accurately estimate fine-grained network traffic matrix from aggregated measurements, which can provide valuable insights into network performance and help identify potential bottlenecks or security threats.
+    - title: Routing using Deep Reinforcement Learning and Graph Convolutional Networks.
+      items: 
+        - Design, implementation, and evaluation of innovative approaches for network routing based on Deep Reinforcement Learning. Single-Agent Graph Convolutional Network could help to minimize retraining needs, whereas Multi-agent Deep Q-Networks could provide scalable alternatives where multiple federated domain routing agents need to cooperate, e.g., in eBGP or other Wide Area Networks under a single domain
+    - title: Mobile Traffic Prediction using Multitask Deep Learning.
       items:
-        - Description 1.
-        - Description 2.
+        - Comparison and discussion of advanced DL-based prediction models, such as Convolutional Neural Networks, Gated Recurrent Unit, Long Short-Term Memory and their performance to predict highly dynamic coarse-grained encrypted mobile-app traffic using flow-level statistics.
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Soccer, Hiking, Electric Guitar, Traveling.

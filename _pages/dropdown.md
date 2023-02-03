@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
-nav: true
+title: Menu
+nav: false
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
+    - title: Research
       permalink: /publications/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Curriculum Vitae
+      permalink: /cv/
 ---
