@@ -46,7 +46,8 @@
     -title: Visiting Researcher
       institution: Boston University, Boston, MA, USA
       year: May-Sep 2023
-      description: Collaborated on a CNN-based Transfer-Learning model for network intrusion detection using Generative Adversarial Networks and XAI.
+      description: 
+        - Collaborated on a CNN-based Transfer-Learning model for network intrusion detection using Generative Adversarial Networks and XAI.
 
     - title: Visiting Researcher
       institution: KTH Royal Institute of Technology, Stockholm, Sweden
