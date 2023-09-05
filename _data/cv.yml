@@ -8,6 +8,7 @@
     - name: Languages
       value: English, Italian
 
+
 - title: Education
   type: time_table
   contents:
