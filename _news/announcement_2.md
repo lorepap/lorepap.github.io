@@ -5,7 +5,7 @@ date: 2022-11-10 16:11:00-0400
 inline: true
 ---
 
-Our work <b> A Federated Learning Approach to Traffic Matrix Estimation using Super-resolution Techniques </b> has been accepted at CCNC '23 (Las Vegas, NV, USA)! &#127881;
+Our work entitled <a href="https://ieeexplore.ieee.org/abstract/document/10158424"> "A Federated Learning Approach to Traffic Matrix Estimation using Super-resolution Techniques" </a> has been accepted at CCNC '23 (Las Vegas, NV, USA)! &#127881;
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
