@@ -2,6 +2,9 @@
 ---
 
 @ARTICLE{routing-tnsm,
+  bibtex_show={true},
+  altmetric={true},
+  abbr={NFV-SDN '22},
   author={Bhavanasi, Sai Shreyas and Pappone, Lorenzo and Esposito, Flavio},
   journal={IEEE Transactions on Network and Service Management}, 
   title={Dealing with Changes: Resilient Routing via Graph Neural Networks and Multi-Agent Deep Reinforcement Learning}, 
@@ -12,12 +15,11 @@
   abstract={The computer networking community has been steadily increasing investigations into machine learning to help solve tasks such as routing, traffic prediction, and resource management. The traditional best-effort nature of Internet connections allows a single link to be shared among multiple flows competing for network resources, often without consideration of in-network states. In particular, due to the recent successes in other applications, Reinforcement Learning has seen steady growth in network management and, more recently, routing. However, if there are changes in the network topology, retraining is often required to avoid significant performance losses. This restriction has chiefly prevented the deployment of Reinforcement Learning-based routing in real environments. In this paper, we approach routing as a reinforcement learning problem with two novel twists: minimize flow set collisions, and construct a reinforcement learning policy capable of routing in dynamic network conditions without retraining. We compare this approach to other routing protocols, including multi-agent learning, with respect to various Quality-of-Service metrics, and we report our lesson learned.},
   keywords={},
   doi={10.1109/TNSM.2023.3287936},
+  url={https://www.comsoc.org/publications/journals/ieee-tnsm}
   ISSN={1932-4537},
   month={},
   selected={true}
   }
-
-
 
 
 @article{routing,
@@ -49,6 +51,11 @@
   volume={},
   number={},
   pages={},
+  doi={10.1109/CCNC51644.2023.10060210},
+  altmetric={true}
+  url={https://ccnc2023.ieee-ccnc.org},
+  pdf={2022_CCNC_Estimation_of_Traffic_Matrices_via_Super_resolution_and_Federated_Learning-2.pdf},
+  html={https://ieeexplore.ieee.org/abstract/document/10060210?casa_token=f0141VCbNLEAAAAA:qrxgXju4YvudIvA8AOfIMyHL58Q35xPIOnCnyKMv6I-M07L4R7FHpJcS2GKdsaReFfocHue3},
   abstract={Network measurement and telemetry techniques are central to the management of modern computer networks. Traffic matrix estimation is a popular technique that supports several applications. Existing approaches use statistical methods, which often make invalid assumptions about the structure of the traffic matrix. Data-driven methods, instead, leverage detailed information about the network topology that may be unavailable or impractical to collect.
 In this work, we propose a super-resolution technique for traffic matrix estimation that can infer fine-grained network traffic.  In our experiment, we demonstrate that the proposed approach with high precision outperforms existing data interpolation techniques.
 We also expand our design by employing a federated learning model to address scalability and improve performance. We find that our model increases the accuracy of the inference with respect to its centralized counterpart.
