@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student | Computer Science | Machine Learning | Networking
+subtitle: Computer Science | Machine Learning | AI | Networked Systems
 
 profile:
   align: right
