@@ -25,9 +25,11 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a PhD student in Computer Science under the advisement of Dr. Flavio Esposito, at Saint Louis University, where I am part of the Networking Research Group (NRG). My research interests revolve around the intersection of Machine Learning and Computer Networks. I am currently working on different projects which aim to explore new AI-based techniques for several networking related problems such as congestion control, packet routing optimization and traffic matrix estimation among the others. I'm deepening and studying the application of several ML/DL techniques, including but not limited to Deep Reinforcement Learning (DRL), Generative Adversarial Networks (GANs) and computer vision algorithms.
+I am a PhD student in Computer Science under the advisement of Dr. Flavio Esposito, at Saint Louis University, where I am part of the Networking Research Group (NRG). My research interests revolve around the intersection of Machine Learning, AI and Networked Systems. 
 
-I have always been drawn to the complexity of computer networks and how they enable our daily lives. My passion for this field inspired me to pursue a PhD, where I can delve into the intricacies of these systems and contribute to their improvement. I believe that the combination of Machine Learning and Networking can lead to breakthroughs in our understanding and management of communication networks.
+I am currently working on different projects which aim to explore new AI technologies for distributed systems and computer networks. My research includes topics like Deep Reinforcement Learning (DRL), Generative AI, Federated Learning and more.
+
+<!-- I have always been drawn to the complexity of computer networks and how they enable our daily lives. My passion for this field inspired me to pursue a PhD, where I can delve into the intricacies of these systems and contribute to their improvement. I believe that the combination of Machine Learning and Networking can lead to breakthroughs in our understanding and management of communication networks. -->
 
 <!-- In my free time, I enjoy engaging in various physical and creative activities. Soccer is one of my favourite sports, but I also workout regularly at the gym. I have 10+ years of experience in playing electric guitar. Photography is another hobby of mine, and I love capturing moments and memories through my lens.
 

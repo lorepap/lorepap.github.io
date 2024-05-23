@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Real-Time Speech-To-Speech Translation System
+description: A real-time speech-to-speech translation system based on OpenAI's Whisper model to translate speech from over 50 languages to English.
 img: assets/img/12.jpg
 importance: 1
 category: work
