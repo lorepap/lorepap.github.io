@@ -81,11 +81,18 @@ We also expand our design by employing a federated learning model to address sca
 
 @article{mutant,
   abbr={NSDI '25},
+  bibtex_show={true},
   title={Mutant: Learning Congestion Control from Existing Transport Protocols},
   author={Pappone, Lorenzo, and Sacco, Alessio  and Esposito, Flavio},
+  abstract={Learning how to control congestion remains a challenge despite years of progress. Existing congestion control protocols
+have demonstrated efficacy within specific network conditions, inevitably behaving suboptimally or poorly in others. Machine learning solutions to congestion control have been proposed, though relying on extensive training and specific
+network configurations. In this paper, we loosen such dependencies by proposing Mutant, an online reinforcement learning algorithm for congestion control that adapts to the behavior of the best-performing schemes, outperforming them
+in most network conditions. Design challenges included determining the best protocols to learn from, given a network
+scenario, and creating a system able to evolve to accommodate future protocols with minimal changes. Our evaluation on real-world and emulated scenarios shows that Mutant achieves lower delays and higher throughput than prior learning-based schemes while maintaining fairness by exhibiting negligible harm to competing flows, making it robust across diverse and dynamic network conditions.},
   journal={22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
-  year={2024},
+  year={2025},
   pages={},
+  pdf={Mutant___NSDI_2025___camera_ready.pdf},
   organization={},
   doi={},
   selected={true}
@@ -93,10 +100,14 @@ We also expand our design by employing a federated learning model to address sca
 
 @article{super_resolution,
   abbr={CNSM '24},
-  author = {Pappone, Lorenzo and Zilli, Cristian and Sacco, Alessio and Esposito, Flavio},
-  title = {ResCue: Inferring Fine-Grained Traffic Matrices via Distributed Deep Residual Networks},
+  bibtex_show={true},
+  author={Pappone, Lorenzo and Zilli, Cristian and Sacco, Alessio and Esposito, Flavio},
+  title={ResCue: Inferring Fine-Grained Traffic Matrices via Distributed Deep Residual Networks},
+  abstract={Network measurement and telemetry techniques are central to the management of modern computer networks. Internet traffic matrix estimation is a popular technique employed for network management and telemetry to reconstruct missing information. Existing approaches use statistical methods, which often make impractical assumptions about the structure of the Internet traffic matrix. Data-driven methods, instead, heavily rely on the assumption of full knowledge of network topology data, that may be unavailable or impractical to collect. In this work, we propose ResCue, a deep residual networks technique to infer fine-grained Internet network traffic starting from spatial coarse-grained measurements. To address scenarios with network visibility constraints, we design a federated learning approach for fine-grained traffic prediction with partial network knowledge. Our evaluation across real-world traffic data shows that our proposed approach outperforms existing interpolation techniques and that our federated learning design achieves similar accuracy with respect to its centralized counterpart while requiring only partial knowledge of the network
+  },
   journal = {20th International Conference on Network and Service Management (CNSM)},
   year = {2024},
+  pdf={ResCue___CNSM_2024_final.pdf},
   selected={true}
 }
 
@@ -111,7 +122,7 @@ We also expand our design by employing a federated learning model to address sca
 @article{robinhood,
 abbr={Under Review},
 title={RobinHood: Collaborative Burst Mitigation Through In-Network Packet Deflection},
-author={Pantano, L, and Zilli, C, and Pappone, L and Sacco, A and Marchetto, G and Esposito, F},
+author={Pantano, Lorenzo, and Zilli, Cristian, and Pappone, Lorenzo and Sacco, Alessio and Marchetto, Guido and Esposito, Flavio},
 year={2024},
 selected={true}
 }
@@ -119,11 +130,14 @@ selected={true}
 @article{gan_malware,
 abbr={CNSM '24},
 title={Addressing Data Security in IoT: Minimum Sample Size and Denoising Diffusion Models for Improved Malware Detection},
-author={Camerota , C and Pappone, L and Pecorella, T and Esposito, F},
+author={Camerota, Chiara and Pappone, Lorenzo and Pecorella, Tommaso and Esposito, Flavio},
+journal = {20th International Conference on Network and Service Management (CNSM)},
+pdf={Addressing_Data_Security_in_IoT__Minimum_Sample_Size_and_Denoising_Diffusion_Models_for_Improved_Malware_Detection.pdf},
+abstract={Machine learning (ML) has emerged as a compelling approach to identify attacks in network traffic security. Existing malware detection strategies often concentrate on specific facets, such as efficient data collection, particular types of malware, or handling data scarcity. While valid, these strategies typically overlook the potential for minimizing sample size, focusing instead on data augmentation. This work introduces a novel method to determine the minimum sample size necessary to achieve a specified accuracy level, measured by the F1 score derived from the confusion matrix. We focus on TCP header traffic data transformed into images through flow-splitting techniques for multi-class traffic classification. In addition, we introduce a diffusion model to generate new synthetic traffic images and show that our method outperforms existing techniques in terms of stability and predictability. This study also compares the effectiveness of synthetic image augmentation using Generative Adversarial Networks (GANs) and Denoising Diffusion Probabilistic Models (DDPM) in improving image recognition and classification accuracy.},
 year={2024},
-selected={true}
+selected={true},
+bibtex_show={true}
 }
-
 
 
 @string{aps = {American Physical Society,}}
