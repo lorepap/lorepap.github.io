@@ -25,9 +25,9 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a PhD student in Computer Science under the advisement of Dr. Flavio Esposito, at Saint Louis University, where I am part of the Networking Research Group (NRG). My research interests revolve around the intersection of Machine Learning, AI and Networked Systems. 
+I am a PhD student in Computer Science under the advisement of Dr. Flavio Esposito, at Saint Louis University, where I am part of the Networking Research Group (NRG). My research interests are Machine Learning Systems, Datacenter Networks and Network Optimization.
 
-I am currently working on different projects which aim to explore the design of DL/ML architectures for network performance optimization and how to accelerate distributed training with in-network computing. My research includes topics like reinforcement learning for congestion control, super-resolution for traffic matrix estimation, in-network ML and in-network aggregation (INA) for distributed training.
+I am currently working on different projects (AI for networks, networks for AI) which mainly aim to explore the design of DL/ML architectures for network optimization problems (e.g., congestion control, load-balancing, etc.) and how to accelerate distributed training with in-network computing. My research includes topics like reinforcement learning for congestion control, super-resolution for traffic matrix estimation, in-network machine learning and in-network aggregation (INA) for distributed deep learning.
 
 <!-- I have always been drawn to the complexity of computer networks and how they enable our daily lives. My passion for this field inspired me to pursue a PhD, where I can delve into the intricacies of these systems and contribute to their improvement. I believe that the combination of Machine Learning and Networking can lead to breakthroughs in our understanding and management of communication networks. -->
 
