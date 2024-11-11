@@ -27,7 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I am a PhD student in Computer Science under the advisement of Dr. Flavio Esposito, at Saint Louis University, where I am part of the Networking Research Group (NRG). My research interests revolve around the intersection of Machine Learning, AI and Networked Systems. 
 
-I am currently working on different projects which aim to explore new AI technologies for distributed systems and computer networks. My research includes topics like Deep Reinforcement Learning (DRL), Generative AI, Federated Learning and more.
+I am currently working on different projects which aim to explore the design of DL/ML architectures for network performance optimization and how to accelerate distributed training with in-network computing. My research includes topics like reinforcement learning for congestion control, super-resolution for traffic matrix estimation, in-network ML and in-network aggregation (INA) for distributed training.
 
 <!-- I have always been drawn to the complexity of computer networks and how they enable our daily lives. My passion for this field inspired me to pursue a PhD, where I can delve into the intricacies of these systems and contribute to their improvement. I believe that the combination of Machine Learning and Networking can lead to breakthroughs in our understanding and management of communication networks. -->
 
