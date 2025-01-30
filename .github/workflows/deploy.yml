@@ -17,6 +17,15 @@ jobs:
 
     - name: Checkout code
       uses: actions/checkout@v3  
+   
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0.2'
+        bundler-cache: true
+
+    - name: Install Bundler
+      run: gem install bundler -v 2.4.22 --user-install
 
     - name: Uninstall Conflicting URI Gem
       run: gem uninstall uri --all || true
@@ -24,10 +33,7 @@ jobs:
     - name: Install Compatible URI Gem
       run: gem install uri -v 1.0.2 --user-install
 
-    - name: Install Bundler
-      run: gem install bundler -v 2.4.22 --user-install
-
-    - name: Clean Environment
+    - name: Install Dependencies
       run: |
         rm -rf vendor/bundle
         bundle config set --local deployment 'true'
@@ -36,12 +42,6 @@ jobs:
 
     - name: Build Jekyll Site
       run: bundle exec jekyll build
-
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0.2'
-        bundler-cache: true
 
     - name: Install deps
       run: |
