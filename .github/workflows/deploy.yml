@@ -19,9 +19,9 @@ jobs:
     - name: Uninstall Conflicting URI Gem
       run: gem uninstall uri --all || true
     - name: Install Compatible URI Gem
-      run: gem install uri -v 1.0.2
+      run: gem install uri -v 1.0.2 --user-install
     - name: Install Bundler
-      run: gem install bundler -v 2.4.22
+      run: gem install bundler -v 2.4.22 --user-install
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
