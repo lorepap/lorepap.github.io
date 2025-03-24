@@ -31,7 +31,7 @@ jobs:
       run: gem uninstall uri --all || true
 
     - name: Install Compatible URI Gem
-      run: gem install uri -v 1.0.2 --user-install
+      run: gem install uri -v 1.0.3 --user-install
 
     - name: Install Dependencies
       run: |
